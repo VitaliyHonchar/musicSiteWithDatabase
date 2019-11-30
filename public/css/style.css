@@ -1,0 +1,248 @@
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  align-items: center;
+  background: url("https://wallpapercave.com/wp/wp1828044.jpg");
+  color: white;
+}
+.wrapper-admin{
+	background: url("https://1.bp.blogspot.com/-rCX2O3nSV2o/VK7YAg34umI/AAAAAAAABMM/n72eETo8pvg/s1600/1.jpg");
+	background-size: cover;
+}
+.wrapper-genre{
+	background: url("https://i.pinimg.com/originals/78/8a/10/788a10e1e4ac0cc9fde02fafc70ba6d3.jpg");
+}
+
+.wrapper-group{
+	background: url("https://www.wallpapersbrowse.com/images/xr/xrcst58.jpg");
+	background-size: cover;
+}
+.wrapper-song{
+	background: url("http://cuteweblinks.info/images/Rock-Wallpaper/Rock-Wallpaper-2.jpg");
+}
+
+.wrapper-user{
+	background: url("https://images.unsplash.com/photo-1530482817083-29ae4b92ff15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80");
+}
+.wrapper-admin .wrap{
+	height: 88vh;
+	text-align: center;
+	background: url("https://media.istockphoto.com/photos/christmas-lights-defocused-background-picture-id683267846?k=6&m=683267846&s=612x612&w=0&h=CtmTEhCuaO07wRgwvVdfP9r1_eupJgJqU1pKx7iEPb8=");
+	background-size: cover;	
+}
+.image_container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	max-height:600px;
+	height:100%;
+	text-align: center;
+	font-size: 20pt;
+}
+.image_container a{
+	color: #fff;
+}
+.img{
+	max-width: 200px;
+	
+	}
+.img img{
+	max-width: 200px;
+	border-radius: 50%;
+	
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  z-index: 2;
+  color: black;
+  background-color: white;
+  border-color: #ddd;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  z-index: 3;
+  color: #fff;
+  cursor: default;
+  background-color: red;
+  border-color: #ddd;
+}
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+  color: white;
+  cursor: not-allowed;
+  background-color: black;
+  border-color: #ddd;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: white;
+    text-decoration: none;
+    background-color: #000;
+    border: 1px solid #ddd;
+}
+/* Стилі пагінатора */
+
+.wrap {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  max-width: 1400px;
+  width: 100%;
+  min-height: 90vh;
+  padding: 10px 10px 10px 10px;
+  background: #333;
+  margin: 0;
+  padding: 0;
+}
+header{
+	max-width: 1920px;
+	width: 100%;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	align-items: center;
+}
+header form input{
+	width: 300px;
+	height: 60px;
+	padding: 10px 10px 10px 10px;
+	font-size: 18pt;
+}
+header form button{
+	width: 58px;
+	height: 58px;
+	background-size: cover;
+}
+ input, select{
+	color: black;
+}
+.container select, input, label{
+	font-size: 24pt;
+}
+.container .form-control{
+	height: unset;
+	font-size: 24pt;
+}
+h3{
+	font-size: 26pt;
+}
+form .btn-success{
+	font-size: 24pt;
+}
+::placeholder{
+	color: red;
+}
+label{
+	color: white;
+}
+.label-danger{
+	height: 80%;
+	width: 15%;
+	font-size: 20pt;
+	color: white;
+	cursor: pointer;
+}
+.label-danger a{
+	color: white;
+	cursor: pointer;
+}
+.flex-center, .position-ref, .full-height{
+	font-size: 18pt;
+	color: white;
+}
+.flex-center, .position-ref, .full-height a{
+	color: white;
+	cursor: pointer;
+}
+
+.audio_container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	max-width: 1300px;
+	width: 100%;
+	margin: 10px;
+	align-items: center;
+	font-size: 12pt;
+	padding-left: 100px;
+}
+.audio_container li{
+	list-style: none;
+	font-size: 16pt;
+}
+audio{
+	width: 60%;
+	font-family: 'Segoe Script';
+}
+
+.delete{
+	padding: 0;
+	margin: 0;
+	display: inline;
+	background: transparent;
+	
+}
+table{
+	font-size: 20pt;
+	border: 2px solid red;
+	height: 300px;
+    width: -webkit-fill-available;
+    text-align: center;
+}
+table td{
+	border: 3px solid black;
+}
+table i{
+	display: inline;
+}
+
+table form{
+	display: inline;
+}
+table .btn-danger{
+	width: 100%;
+}
+.paginator{
+	display: flex;
+	max-width: 1400px;
+	width: 100%;
+	justify-content: center;
+}
+footer{
+	max-width: 1400px;
+	min-height: 100px;
+	background: black;
+	color:white;
+	padding: 20px 20px 20px 20px;
+	width: 100%;
+	height: 100%;
+	font-size: 18pt;
+	align-items: center;
+	display: flex;
+	justify-content: flex-end;
+}
+footer ul li{
+	list-style: none;
+}
